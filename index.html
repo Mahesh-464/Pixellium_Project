@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixellium | Synchronizing Ideas into Impact</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ▸ Hero / Navbar -->
+  <header class="hero" id="hero">
+    <nav class="navbar">
+      <div class="logo">Pixellium</div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-toggle" aria-label="toggle navigation" id="nav-toggle">
+        &#9776;
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content animate">
+      <h1>Synchronizing Ideas into Impact</h1>
+      <p>We craft design, motion, and web solutions.</p>
+      <a href="#services" class="btn">Explore Our Work</a>
+    </div>
+  </header>
+
+  <!-- ▸ Services -->
+  <section class="services animate" id="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Branding &amp; Design</h3>
+        <p>Shape a unique brand identity that stands out.</p>
+      </div>
+      <div class="service-card">
+        <h3>Motion Graphics</h3>
+        <p>Bring ideas to life with animation and storytelling.</p>
+      </div>
+      <div class="service-card">
+        <h3>Website Development</h3>
+        <p>Fast, responsive, accessible sites from concept to code.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ▸ About -->
+  <section class="about animate" id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>We are a full-service agency. We think that the strongest brands are those which are anchored firmly in people's lives, generating conversations, likes, and shares. Our experience and Brand Asset Valuator, our analysis tool for more than 100 brands in Pakistan and the MENA Region, shows us that brands with the most Cultural Capital are also the strongest in terms of commitment and business value. To build brands, our role is to come up with ideas that talk to people and that people talk about.
+  </section>
+
+  <!-- ▸ Contact -->
+  <section class="contact animate" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+      <p class="form-message" id="form-message"></p>
+    </form>
+  </section>
+
+  <!-- ▸ Footer -->
+  <footer>
+    <p>© 2025 Pixellium</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script defer src="script.js"></script>
+</body>
+</html>
